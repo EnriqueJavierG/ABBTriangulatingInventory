@@ -1,0 +1,315 @@
+﻿
+/*body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+body {
+    /*Very similar to abb voice */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*======================================================================*/
+/*Header style
+    This must be applied directly to the header if the header is in a control form
+   -> inside of <style></style> <-
+*/
+
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+    .header a:hover {
+        color: red;
+        font-family: 'Montserrat', sans-serif;
+        /*     background-color: #ddd; */
+    }
+
+.header-right {
+    float: right;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    display: inline-block;
+}
+/*==================================================================*/
+/*Grid style*/
+
+/*Grid general style*/
+.grid {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-left: 10px;
+    box-shadow: 0px 4px 4px -4px gray;
+    z-index: 1;
+    position: relative;
+    /*width: 600px;*/
+    white-space: nowrap;
+    /*table-layout: fixed;*/
+}
+    /* Grid header column style */
+    .grid th {
+        background-color: #696969;
+        border: none;
+        text-align: left;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 6px;
+        color: white;
+        white-space: nowrap;
+    }
+    /*Grid row style*/
+    .grid tr {
+       
+        border: none;
+        text-align: left;
+        font-size: 15px;
+        padding: 6px;
+        color: black;
+        white-space: nowrap;
+    }
+
+        .grid tr:hover {
+            background-color: #ddd;
+        }
+
+    .grid td {
+        /*border: none;*/
+        text-align: left;
+        font-size: 15px;
+        padding: 6px;
+        color: Black;
+        white-space: nowrap;
+    }
+
+.round {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/*=========================================================*/
+/* Round button style*/
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    /*  box-shadow: 0 5px 0 darkred; looks cool but does not meet abb branding requirements*/
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.button-login {
+    background-color: red;
+    border: none;
+    color: white;
+
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+    /*Button actions*/
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .button:active {
+        background-color: darkred;
+    }
+/*=========================================================*/
+/*Input forms*/
+input[type=text] {
+    border: 2px solid gray;
+    position: relative;
+    height: 25px;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    border: 2px solid gray;
+    height: 25px;
+    border-radius: 10px;
+}
+/*=========================================================*/
+/*Link Area*/
+
+/*=========================================================*/
+/*Label Area*/
+.control-label {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+div.label-wrapper {
+    position: relative;
+    width: 400px; /* Set this to however far you want that right align to be from the left */
+}
+
+    div.label-wrapper > label {
+        position: absolute;
+        right: 0;
+        height: 15px; /*Or whatever height you like */
+    }
+
+    div.label-wrapper > input[type=text] {
+        position: absolute;
+        right: 0;
+        top: 15px; /* Or whatever you set the label's height to, plus any desired margin */
+    }
+/*=========================================================*/
+/*Drop down list*/
+
+/*=========================================================*/
+/*MANUELS*/
+
+.background-container {
+    background-color: #CFD1D1;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    height: 100vh;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-logo {
+    margin-bottom: 20px;
+}
+
+.form-heading {
+    color: #fff;
+    font-size: 23px;
+}
+
+.panel h2 {
+    color: #444444;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.panel p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.login-form .form-control {
+    background: none;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+}
+
+    .login-form .form-control:focus {
+        border: 1px solid #d4d4d4;
+        border-radius: 4px;
+        color: #495057;
+        border-color: rgba(0, 0, 0, 0.20);
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+    }
+
+.main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 30px auto 30px;
+    max-width: 75%;
+    padding: 50px 70px 50px 71px;
+}
+
+.login-form .form-group {
+    margin-bottom: 10px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.forgot a {
+    color: #777777;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.login-form .btn.btn-primary {
+    background: #ff000f none repeat scroll 0 0;
+    border-color: #ff000f;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.forgot {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.botto-text {
+    color: #ffffff;
+    font-size: 14px;
+    margin: auto;
+}
+
+.login-form .btn.btn-primary.reset {
+    background: #ff9900 none repeat scroll 0 0;
+}
+
+.back {
+    text-align: left;
+    margin-top: 10px;
+}
+
+    .back a {
+        color: #444444;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+/*=========================================================*/
+
+.barcode {
+    font-family: 'Free 3 of 9';
+    font-size: 100px;
+    font-stretch:expanded;
+}
