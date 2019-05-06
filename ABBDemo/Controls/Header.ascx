@@ -6,7 +6,6 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Header.ascx.cs" Inherits="ABBDemo.Controls.Header" %>
 
 
-
 <asp:Panel ID="Panel1" runat="server">
     <%--===========================================================--%>
     <%--Header style--%>

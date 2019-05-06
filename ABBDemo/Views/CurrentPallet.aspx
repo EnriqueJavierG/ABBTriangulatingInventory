@@ -62,7 +62,6 @@
                     </td>
                     <%--==================================================================--%>
 
-
                     <%--==================================================================--%>
                     <td>
                         <asp:Label CssClass="control-label" ID="LblCurrent" runat="server" Text="All Transactions"></asp:Label>
@@ -81,7 +80,6 @@
                     <%--==================================================================--%>
                 </tr>
             </table>
-
         </div>
         <%--==================================================================--%>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:InventoryPDBConnectionString1 %>" SelectCommand="SP_TransactionByPalletView" SelectCommandType="StoredProcedure">

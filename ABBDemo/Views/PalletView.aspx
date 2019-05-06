@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PalletView.aspx.cs" Inherits="ABBDemo.PalletView" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

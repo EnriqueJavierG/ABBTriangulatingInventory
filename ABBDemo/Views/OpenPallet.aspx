@@ -1,13 +1,13 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OpenPallet.aspx.cs" Inherits="ABBDemo.OpenPallet" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Open Pallet</title>
     <link rel="stylesheet" href="/ABBStyleSheet.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <style>
