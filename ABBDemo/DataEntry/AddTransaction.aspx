@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddTransaction.aspx.cs" Inherits="ABBDemo.AddTransaction" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 <%-- 
     @author Enrique Javier
     version: 1.0

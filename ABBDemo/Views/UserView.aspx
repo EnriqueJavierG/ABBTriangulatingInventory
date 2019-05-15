@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UserView.aspx.cs" Inherits="ABBDemo.UserView" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
 

@@ -3,12 +3,10 @@
 <%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Open Pallet</title>
-    <link rel="stylesheet" href="/ABBStyleSheet.css" />
+    <link rel="stylesheet" href="~/ABBStyleSheet.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <style>
         body {
@@ -41,7 +39,6 @@
                 <asp:SessionParameter Name="WorkingArea" SessionField="From" Type="String" Size="20" />
             </SelectParameters>
         </asp:SqlDataSource>
-
     </form>
 </body>
 </html>

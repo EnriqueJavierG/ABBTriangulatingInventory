@@ -63,16 +63,16 @@
     <%--===========================================================--%>
     <div class="header">
         <%--images--%>
-        <img alt="ABB" src="/Images/logo.png" width="120" height="40" />
+        <img alt="ABB" src="../Images/logo.png" width="120" height="40" />
         <%--===========================================================--%>
         <%-- All the hyperlinks in the menu--%>
         <div class="header-right ">
-            <asp:HyperLink ID="HLDefault" runat="server" href="/Views/Default.aspx" Style="color: #767575">Home</asp:HyperLink>
-            <asp:HyperLink ID="HLPartView" runat="server" href="/Views/PartsView.aspx" Style="color: #767575">Part List</asp:HyperLink>
-            <asp:HyperLink ID="HLAllPallets" runat="server" href="/Views/PalletView.aspx" Style="color: #767575" Visible="false">All Pallet</asp:HyperLink>
-            <asp:HyperLink ID="HLOpenPallet" runat="server" href="/Views/OpenPallet.aspx" Style="color: #767575">Open Pallet</asp:HyperLink>
-            <asp:HyperLink ID="HyperLink1" runat="server" href="/Views/TransactionView.aspx" Style="color: #767575" Visible="false">All Transactions</asp:HyperLink>
-            <asp:HyperLink ID="HLUserView" runat="server" href="/Views/UserView.aspx" Style="color: #767575" Visible="false">Users</asp:HyperLink>
+            <asp:HyperLink ID="HLDefault" runat="server" href="../Views/Default.aspx" Style="color: #767575">Home</asp:HyperLink>
+            <asp:HyperLink ID="HLPartView" runat="server" href="../Views/PartsView.aspx" Style="color: #767575">Part List</asp:HyperLink>
+            <asp:HyperLink ID="HLAllPallets" runat="server" href="../Views/PalletView.aspx" Style="color: #767575" Visible="false">All Pallet</asp:HyperLink>
+            <asp:HyperLink ID="HLOpenPallet" runat="server" href="../Views/OpenPallet.aspx" Style="color: #767575">Open Pallet</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" href="../Views/TransactionView.aspx" Style="color: #767575" Visible="false">All Transactions</asp:HyperLink>
+            <asp:HyperLink ID="HLUserView" runat="server" href="../Views/UserView.aspx" Style="color: #767575" Visible="false">Users</asp:HyperLink>
         </div>
     </div>
 </asp:Panel>

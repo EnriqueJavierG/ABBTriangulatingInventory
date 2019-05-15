@@ -22,15 +22,6 @@ namespace ABBDemo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Header1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ABBDemo.Controls.Header Header1;
-        
-        /// <summary>
         /// BtnFab control.
         /// </summary>
         /// <remarks>
@@ -47,14 +38,5 @@ namespace ABBDemo {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnPlat1;
-        
-        /// <summary>
-        /// BtnPlat2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnPlat2;
     }
 }

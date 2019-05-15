@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ABBDemo {
+namespace ABBDemo.Views {
     
     
-    public partial class CurrentPallet {
+    public partial class PrintReport {
         
         /// <summary>
         /// form1 control.
@@ -22,112 +22,103 @@ namespace ABBDemo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Header1 control.
+        /// LblDatePurchase control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ABBDemo.Controls.Header Header1;
+        protected global::System.Web.UI.WebControls.Label LblDatePurchase;
         
         /// <summary>
-        /// lblPalletId control.
+        /// LblDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPalletId;
+        protected global::System.Web.UI.WebControls.Label LblDate;
         
         /// <summary>
-        /// LblCountPlace control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblCountPlace;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// lblCount control.
+        /// LblSoldTo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCount;
+        protected global::System.Web.UI.WebControls.Label LblSoldTo;
         
         /// <summary>
-        /// BtnPrintPallet control.
+        /// LblSoldTo1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnPrintPallet;
+        protected global::System.Web.UI.WebControls.Label LblSoldTo1;
         
         /// <summary>
-        /// BtnPrintReport control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnPrintReport;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// btnSubmitPallet control.
+        /// LblDM control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitPallet;
+        protected global::System.Web.UI.WebControls.Label LblDM;
         
         /// <summary>
-        /// BtnAddTransaction control.
+        /// LblPacker control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnAddTransaction;
+        protected global::System.Web.UI.WebControls.Label LblPacker;
         
         /// <summary>
-        /// BtnExit control.
+        /// LblPackerName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnExit;
+        protected global::System.Web.UI.WebControls.Label LblPackerName;
         
         /// <summary>
-        /// LblSummary control.
+        /// LblBin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblSummary;
+        protected global::System.Web.UI.WebControls.Label LblBin;
         
         /// <summary>
-        /// GridView2 control.
+        /// LblIntBin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView2;
-        
-        /// <summary>
-        /// LblCurrent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblCurrent;
+        protected global::System.Web.UI.WebControls.Label LblIntBin;
         
         /// <summary>
         /// GridView1 control.
@@ -139,6 +130,24 @@ namespace ABBDemo {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+        
+        /// <summary>
         /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>
@@ -146,14 +155,5 @@ namespace ABBDemo {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
-        
-        /// <summary>
-        /// SqlDataSource2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
     }
 }

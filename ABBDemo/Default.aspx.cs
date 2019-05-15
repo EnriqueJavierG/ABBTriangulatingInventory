@@ -42,7 +42,7 @@ namespace ABBDemo
                     cmd.ExecuteNonQuery();
 
                     var UserRole = cmd.Parameters["@UserRoleId"].Value;
-                    var UserName = cmd.Parameters["@UserName"].Value;
+                    var UserName = cmd.Parameters["@UserName"].Value.ToString();
                     Sucess =  int.Parse(cmd.Parameters["@sucess"].Value.ToString());
 
                     con.Close();
@@ -56,10 +56,10 @@ namespace ABBDemo
                     {
                         if (Session["UserRole"].Equals(2))
                         {
-                            Response.Redirect("WorkArea.aspx");
+                            Response.Redirect("~/WorkArea.aspx");
                         }
                         else
-                            Response.Redirect("Views/Default.aspx");
+                            Response.Redirect("~/Views/Default.aspx");
                     }
                 }
                 else if (Sucess == 2)

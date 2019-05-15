@@ -29,7 +29,7 @@ namespace ABBDemo
                // lblcheck.Text = GridView1.Rows[index].Cells[0].Text;
                 int rowclicked = Convert.ToInt32(GridView1.Rows[index].Cells[0].Text);
                 Session["PalletId"] = rowclicked;
-                Response.Redirect("CurrentPallet.aspx");
+                Response.Redirect("../Views/CurrentPallet.aspx");
             }
         }
     }

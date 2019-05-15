@@ -35,13 +35,13 @@
                             <SettingsDataSecurity AllowDelete="False" AllowInsert="False" />
                         <SettingsSearchPanel Visible="True" />
                         <Columns>
-                            <dx:GridViewDataTextColumn FieldName="strPartNumber" VisibleIndex="0" ShowInCustomizationForm="True" Name="Part Number">
+                            <dx:GridViewDataTextColumn FieldName="strPartNumber" caption="Part Number" VisibleIndex ="0" ShowInCustomizationForm="True" Name="Part Number">
                                 <HeaderStyle BackColor="Gray" />
                             </dx:GridViewDataTextColumn>
-                            <dx:GridViewDataTextColumn FieldName="strCDE" VisibleIndex="1" ShowInCustomizationForm="True" Name="CDE">
+                            <dx:GridViewDataTextColumn FieldName="strCDE" caption="CDE" VisibleIndex="1" ShowInCustomizationForm="True" Name="CDE">
                                 <HeaderStyle BackColor="Gray" />
                             </dx:GridViewDataTextColumn>
-                            <dx:GridViewDataTextColumn FieldName="fltUnitWeight" VisibleIndex="2" ShowInCustomizationForm="True" Name="Unit Weight">
+                            <dx:GridViewDataTextColumn FieldName="fltUnitWeight" caption="Field Name" VisibleIndex="2" ShowInCustomizationForm="True" Name="Unit Weight">
                                 <HeaderStyle BackColor="Gray" />
                             </dx:GridViewDataTextColumn>
                         </Columns>

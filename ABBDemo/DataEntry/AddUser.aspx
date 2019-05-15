@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddUser.aspx.cs" Inherits="ABBDemo.AddUser" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
 

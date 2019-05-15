@@ -13,7 +13,7 @@
 <head runat="server">
     <title>ABB-Home</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-    <link rel="stylesheet" href="/ABBStyleSheet.css" />
+       <link rel="stylesheet" href="~/ABBStyleSheet.css" />
     <style>
         body {
             font-family: 'Montserrat', sans-serif;

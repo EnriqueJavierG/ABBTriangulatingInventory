@@ -2,7 +2,6 @@
 
 <%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Pallet List</title>
@@ -14,7 +13,6 @@
         <div style="text-align: center">
             <div style="width: 50%; margin: 0 auto; text-align: center;">
                 <h1>Pallet List </h1>
-
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <asp:GridView CssClass="grid" ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="intPalletId" DataSourceID="SqlDataSource1" AllowPaging="True" OnRowCommand="GridView1_RowCommand" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
@@ -30,7 +28,7 @@
              </asp:GridView>
                 </p>
                 <p>
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AddPallet.aspx">Add New Pallet</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="../Views/AddPallet.aspx">Add New Pallet</asp:HyperLink>
                 </p>
             </div>
         </div>

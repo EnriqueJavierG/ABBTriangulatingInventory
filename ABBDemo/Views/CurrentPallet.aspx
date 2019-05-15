@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CurrentPallet.aspx.cs" Inherits="ABBDemo.CurrentPallet" %>
 
-<%@ Register Src="/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
 
@@ -14,14 +14,7 @@
             font-family: 'Montserrat', sans-serif;
         }
 
-        .auto-style1 {
-            width: 50%;
-        }
-
-        .auto-style2 {
-            width: 37%;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -31,22 +24,27 @@
             <h3>Pallet:
             <asp:Label ID="lblPalletId" runat="server"></asp:Label>
             </h3>
+            <h3>Pallet:
+                <asp:Label ID="LblCountPlace" runat="server" Text=""></asp:Label>
+            </h3>
             <h3>Transaction Count:&nbsp;
             <asp:Label ID="lblCount" runat="server"></asp:Label>
             </h3>
             <%--==================================================================--%>
-              <%-- Buttons--%>
+            <%-- Buttons--%>
             <p>
-                 <asp:Button CssClass="button" ID="BtnPrintPallet" runat="server" Text="Print Pallet Number" OnClick="BtnPrintPalletNumber_Click" />
-                <asp:Button CssClass="button" ID="BtnPrintReport" runat="server" Text="Print Pallet Report" Height="26px" OnClick="" />
-            <asp:Button CssClass="button" ID="btnSubmitPallet" runat="server" Text="Submit Pallet" Height="26px" OnClick="btnSubmitPallet_Click" />
-                </p>
-    
+                <asp:Button CssClass="button" ID="BtnPrintPallet" runat="server" Text="Print Pallet Number" OnClick="BtnPrintPalletNumber_Click" />
+
+                <asp:Button CssClass="button" ID="BtnPrintReport" runat="server" Text="Print Pallet Report" Height="26px" OnClick="BtnPrintReporte_Click" />
+              
+                <asp:Button CssClass="button" ID="btnSubmitPallet" runat="server" Text="Submit Pallet" Height="26px" OnClick="btnSubmitPallet_Click" />
+            </p>
+
             <asp:Button CssClass="button" ID="BtnAddTransaction" runat="server" OnClick="BtnAddTransaction_Click" Text="Add Transaction" />
 
             <asp:Button CssClass="button buttinb" ID="BtnExit" runat="server" OnClick="BtnExit_Click" Text="Exit" />
 
-               <%-- /Buttons--%>
+            <%-- /Buttons--%>
             <table>
                 <tr>
                     <td>
@@ -56,7 +54,7 @@
                             <Columns>
                                 <asp:BoundField DataField="strPartNumber" HeaderText="Part Number" SortExpression="strPartNumber" />
                                 <asp:BoundField DataField="Total Parts" HeaderText="Total Parts" ReadOnly="True" SortExpression="Total Parts" />
-                                <asp:BoundField DataField="QTY" HeaderText="QTY" ReadOnly="True" SortExpression="QTY" />
+                                <asp:BoundField DataField="QTY" HeaderText="Bins" ReadOnly="True" SortExpression="QTY" />
                             </Columns>
                         </asp:GridView>
                     </td>

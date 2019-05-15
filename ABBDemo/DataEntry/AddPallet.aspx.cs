@@ -17,7 +17,6 @@ namespace ABBDemo
             if (!IsPostBack && !Session["UserRole"].Equals(1))
             {
                 LblFrom1.Text = Session["From"] as string;
-                // DropDownListFromLocation.SelectedValue = Session["From"] as string;
             }
 
 
@@ -47,26 +46,23 @@ namespace ABBDemo
                     cmd.Parameters.AddWithValue("@FromLocation", Session["from"]);
                 }
                 else cmd.Parameters.AddWithValue("@FromLocation", DropDownListFromLocation.SelectedValue.ToString());
-                //  cmd.Parameters.AddWithValue("@FromLocation", DropDownListFromLocation.SelectedValue);
-                //cmd.Parameters.AddWithValue("@FromLocation", DropDownListFromLocation.SelectedValue);
 
                 cmd.Parameters.AddWithValue("@UserSSO", Session["UserSSO"]);
 
                 cmd.Parameters.AddWithValue("@ToLocationId", DropDownListToLocation.SelectedValue.ToString());
 
-                //Returning the pallet Id that was created in the server
+                
 
                 cmd.Parameters.Add("@PalletId", SqlDbType.BigInt);
                 cmd.Parameters["@PalletId"].Direction = ParameterDirection.Output;
 
 
-                // SqlParameter returnParameter = cmd.Parameters.Add("@PalletId", SqlDbType.BigInt);
+              
 
                 con.Open();
                 cmd.ExecuteNonQuery();
 
-                //Session variables
-                // Session["FromLocation"] = DropDownListFromLocation.SelectedItem.Text;
+             
 
                 Session["ToLocation"] = DropDownListToLocation.SelectedItem.Text;
 

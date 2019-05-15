@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PrintData.aspx.cs" Inherits="ABBDemo.DataEntry.PrintData" %>
 
-<%@ Register Src="/Controls/HeaderPrint.ascx" TagName="Header" TagPrefix="uc1" %>
 
 <!DOCTYPE html>
 

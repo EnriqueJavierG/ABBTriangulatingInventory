@@ -12,7 +12,7 @@ namespace ABBDemo.Controls
         protected void Page_Load(object sender, EventArgs e)
         {
             var SessionUserRole = Session["UserRole"];
-            
+            var SessionPacker = Session["UserName"];
             //Admin Access Privilages
             if (Session["UserRole"].Equals(1))
             {

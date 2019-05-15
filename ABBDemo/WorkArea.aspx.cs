@@ -22,14 +22,10 @@ namespace ABBDemo
 
         protected void BtnPlat1_Click(object sender, EventArgs e)
         {
-            Session["From"] = "Plat-in";
+            Session["From"] = "Plating";
             Response.Redirect("~/Views/OpenPallet.aspx");
         }
 
-        protected void BtnPlat2_Click(object sender, EventArgs e)
-        {
-            Session["From"] = "Plat-out";
-            Response.Redirect("~/Views/OpenPallet.aspx");
-        }
+
     }
 }
